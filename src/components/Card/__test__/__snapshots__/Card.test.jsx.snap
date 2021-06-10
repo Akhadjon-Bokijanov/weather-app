@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<div
+  data-testid="card-test-id"
+  style={
+    Object {
+      "border": "1px #999 solid",
+      "borderRadius": 11,
+      "cursor": "pointer",
+      "margin": 3,
+      "minHeight": 106,
+      "minWidth": 106,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "padding": 8,
+      }
+    }
+  >
+    <div>
+      <strong>
+        Thu
+      </strong>
+    </div>
+    <div>
+      <img
+        alt="weather img"
+        height={60}
+        src="./sunny.jpg"
+        width={60}
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <div>
+        78
+        °
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": 10,
+          }
+        }
+      >
+        67
+        °
+      </div>
+    </div>
+  </div>
+</div>
+`;

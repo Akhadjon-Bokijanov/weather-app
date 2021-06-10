@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+import ReactDOM from 'react-dom'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it('App.js test', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, div)
 });
